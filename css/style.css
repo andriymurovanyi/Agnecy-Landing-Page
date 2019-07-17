@@ -19,12 +19,12 @@ p{
 }
 
 span{
-    opacity: 0.7;
     color: #000000;
-    font-family: "Open Sans";
-    font-size: 16px;
+    font-family: "Open Sans - Semibold";
+    font-size: 30px;
     font-weight: 400;
-    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
 }
 
 a{
@@ -231,16 +231,70 @@ a{
 .main .section_products .products_list{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 108px;   
 }
 
 .main .section_products .products_list > *{
-    width: 200px;
+    width: 230px;
     height: 200px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 10px 0 0 0;
 }
+
+.main .container .section_team{
+    margin: 0 0 110px 0;
+}
+
+.main .container .section_team .team_title{
+    width: 446px;
+}
+
+.main .container .section_team .main_photo{
+    margin: 80px 0 0 -132px;
+    height: 458px;
+}
+
+.main .container .section_team .team_links{
+    margin-left: -20px;
+}
+
+.main .container .section_team .team_links > * {
+    font-style: italic;
+    letter-spacing: 0.9px;
+    opacity: 0.8;
+    margin: 0 0 0 20px;
+}
+
+.main .container .section_team .team_links > *:hover{
+    text-decoration: underline;
+    color: lightskyblue;
+}
+
+.main .container .section_team .dev_info{
+    display: flex;  
+}
+
+.main .container .section_team .dev_info .details{
+    margin: 84px 0 0 73px;
+}
+
+.main .container .section_team .dev_info .details p{
+    margin: 35px 0 44px 0;
+}
+
+.main .container .section_team .other_devs{
+    margin: 70px 0 0 0;
+
+}
+
+.main .container .section_team .other_devs > *{
+    width: 180px;
+    height: 197px;
+    margin-left: 5px;
+    
+}
+
+
 
 .footer .container{
     line-height: 111px;
@@ -260,22 +314,11 @@ a{
     margin-left: 516px;
 }
 
-.footer .container .section_links img{
+.footer .container .section_links > * {
     width: 33px;
     height: 33px;
     margin: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
